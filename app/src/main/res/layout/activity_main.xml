@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="training.tw.com.catoncloud.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="96dp"
+        android:src="@mipmap/login_head_3"
+        android:layout_width="231dp"
+        android:layout_height="53dp" />
+
+    <TextView
+        android:textColor="#f18476"
+        android:textSize="30sp"
+        android:text="Cat On Cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/login_input_bg"
+        android:textColor="#33cccc"
+        android:textColorHint="#5cd6d6"
+        android:hint="User Nmae"
+        android:layout_marginTop="87dp"
+        android:layout_width="246dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/login_input_bg"
+        android:textColor="@color/colorBlueGreenDark"
+        android:textColorHint="@color/colorBlueGreen"
+        android:hint="Password"
+        android:layout_marginTop="40dp"
+        android:layout_width="246dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:background="@drawable/login_btn_bg_selector"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="Login"
+        android:layout_marginTop="@dimen/ui_size_25"
+        android:layout_width="246dp"
+        android:layout_height="50dp" />
+</LinearLayout>
